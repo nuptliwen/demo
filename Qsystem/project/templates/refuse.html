@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="gb2312">
+  <title>拒绝延期</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/datetimepicker.css" rel="stylesheet" media="screen">
+  <link href="css/tankuang.css" rel="stylesheet" media="screen">
+
+  </head>
+<body>
+
+    <script type="text/javascript" src="jquery/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  拒绝延期
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="mymodal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">拒绝延期</h4>
+      </div>
+      <div class="modal-body">
+	  <form name="test" class="navbar-form navbar-center">
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+			   <div class="title">
+                <label class="item-title">
+                拒绝理由：
+                </label>
+			  </div>
+    </div>
+    <div class="span9">
+		<div><textarea style="background-color: #FFFFFF; width: 80%; height: 100px;"></textarea>
+		</div>
+       
+    </div>
+  </div>
+</div>
+	  </form>
+	  </div>
+      <div class="modal-footer">
+        <div align="center">
+          <button type="button" class="btn mybtn-success" data-dismiss="modal">确定</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+
+</body>
+</html>
